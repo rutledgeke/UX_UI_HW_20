@@ -9,7 +9,7 @@ body {
     background-color: #A4BBC2;
     padding: 15px;
   }
-h1 { 
+  h1 { 
     font-family: 'Hurricane', cursive;
     color: #005F73
   }
@@ -33,8 +33,8 @@ h1 {
   }
   .content {
     margin: auto;
-    width: 350px;
-    height: 200px;
+    width: 2000px;
+    height: 400px;
     display: flex;
     justify-content: center;
   }
@@ -99,3 +99,36 @@ h1 {
   .content3 {
     grid-area: content3;
   }
+
+  /*Responsive Styles*/
+  @media screen and (min-width:650px){
+    header, footer {
+        text-align: center;
+    }
+    .project-item img {
+        float: left;
+        margin-right: 40px;
+    }
+    .content1, .content2, .content3 {
+        display:grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 20px;
+    }
+    .contact-list {
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:649px){
+    h1 {
+        font-size: 75px;
+        line-height: 0.9;
+        margin-bottom: 20px;
+    }
+    h2 {
+        line-height: 1;
+    }
+    .contact-list a {
+         padding: 5px;
+    }
+}
