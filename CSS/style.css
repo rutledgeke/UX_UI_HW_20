@@ -88,7 +88,7 @@ h1 {
   }
   
   .img1, .img2, .img3, .img4, .img5, .content1, .content2, .content3 {
-    padding: 60px;
+    padding: 40px;
   }
   .content1 {
     grid-area: content1;
