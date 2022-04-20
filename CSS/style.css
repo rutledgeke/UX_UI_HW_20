@@ -52,7 +52,7 @@ body {
           font: 1rem/1.5 var(--bs-font-sans-serif);
         }
       a {
-          color: #4682B4;
+          color: white;
         }
 
     .column {
@@ -107,6 +107,14 @@ body {
   }
      .content3 {
     grid-area: content3;
+  }
+
+  button {
+    padding: 1px;
+    background-color: #A4BBC2;
+    color: white;
+    font-size: 20px;
+    border-radius: 1px;
   }
 
   /*Responsive Styles*/
