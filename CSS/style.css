@@ -2,41 +2,39 @@
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-    color: blue;
+    color: #4682B4;
   }
   
   header {
     background-color: #A4BBC2;
-    padding: 15px;
+    padding: 5px;
   }
   h1 { 
-    font-family: 'Hurricane';
+    font-family: 'Montserrat';
     color: green;
   }
   ul.black{
-    color: blue;
+    color: #4682B4;
   }
   header ul {
-    float: right;
+    float: center;
     color: green;
-    padding: 25px;
+    padding: 5px;
   }
   header li {
     display: inline-block;
-    padding: 0px 5px;
+    padding: 0px 0px;
   }
   header p {
     display: inline-block;
   }
-
-  
 
   jumbotron {
     margin: 0 auto;
   }
   .content {
     margin: auto;
-    width: 2000px;
+    width: 1000px;
     height: 400px;
     display: flex;
     justify-content: center;
@@ -54,8 +52,8 @@ body {
       body {
           font: 1rem/1.5 var(--bs-font-sans-serif);
         }
-        a {
-          color: var(--bs-blue);
+      a {
+          color: ;
         }
 
     .column {
@@ -79,8 +77,8 @@ body {
       }
       
       h4 { 
-        font-family: 'Hurricane';
-        color: green;
+        font-family: 'Montserrat';
+        color: #4682B4;
       }
   
      .img1 {
@@ -100,7 +98,7 @@ body {
   }
   
      .img1, .img2, .img3, .img4, .img5, .content1, .content2, .content3 {
-    padding: 40px;
+    padding: 25px;
   }
      .content1 {
     grid-area: content1;
