@@ -77,33 +77,38 @@ body {
         text-align: center;
         background-color: #f1f1f1;
       }
+      
+      h4 { 
+        font-family: 'Hurricane';
+        color: green;
+      }
   
-  .img1 {
+     .img1 {
     grid-area: img1;
   }
-  .img2 {
+     .img2 {
     grid-area: img2;
   }
-  .img3 {
+     .img3 {
     grid-area: img3;
   }
-  .img4 {
+     .img4 {
     grid-area: img4;
   }
-  .img5 {
+     .img5 {
     grid-area: img5;
   }
   
-  .img1, .img2, .img3, .img4, .img5, .content1, .content2, .content3 {
+     .img1, .img2, .img3, .img4, .img5, .content1, .content2, .content3 {
     padding: 40px;
   }
-  .content1 {
+     .content1 {
     grid-area: content1;
   }
-  .content2 {
+     .content2 {
     grid-area: content2;
   }
-  .content3 {
+     .content3 {
     grid-area: content3;
   }
 
