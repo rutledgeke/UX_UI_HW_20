@@ -2,7 +2,7 @@
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-    color: #A4BBC2
+    color: blue;
   }
   
   header {
@@ -10,15 +10,15 @@ body {
     padding: 15px;
   }
   h1 { 
-    font-family: 'Hurricane', cursive;
-    color: #005F73
+    font-family: 'Hurricane';
+    color: green;
   }
   ul.black{
-    color:#005F73;
+    color: blue;
   }
   header ul {
     float: right;
-    color: #005F73;
+    color: green;
     padding: 25px;
   }
   header li {
@@ -28,6 +28,9 @@ body {
   header p {
     display: inline-block;
   }
+
+  
+
   jumbotron {
     margin: 0 auto;
   }
@@ -49,8 +52,12 @@ body {
         box-sizing: border-box;
       }
       body {
-        font-family: Arial, Helvetica, sans-serif;
-      } 
+          font: 1rem/1.5 var(--bs-font-sans-serif);
+        }
+        a {
+          color: var(--bs-blue);
+        }
+
     .column {
         float: left;
         width: 25%;
